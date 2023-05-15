@@ -1,0 +1,220 @@
+.section4 {
+  padding: 100px 15px 65px;
+  .event-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    > img {
+      margin: 26px;
+    }
+  }
+  h2 {
+    @include text;
+    font-size: 2rem;
+  }
+  h3 {
+    @include transform;
+    font-family: $font2;
+    font-size: 1.8rem;
+    color: $white;
+    letter-spacing: 4px;
+  }
+
+  .event {
+    display: grid;
+    grid-template-columns: 58% 40%;
+    grid-template-areas:
+      "a b"
+      "c b";
+    gap: 20px;
+    img {
+      width: 100%;
+    }
+    .event1 {
+      display: grid;
+      grid-template-columns: 30% 70%;
+      grid-area: a;
+      .event1-left {
+        background: url(../../../assets/img/event-01.jpg) center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .date-event {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: $grey1;
+          color: $white;
+          width: 80px;
+          height: 82px;
+          .number-date {
+            font-size: 1.9rem;
+          }
+          .month-date {
+            font-size: 1.2rem;
+            margin-top: -10px;
+          }
+        }
+      }
+      .event1-right {
+        background-color: $white;
+        text-align: left;
+        padding: 20px;
+        h4 {
+          font-family: $font3;
+          font-size: 1.3rem;
+          font-weight: 500;
+          letter-spacing: 2px;
+          // margin-bottom: 20px;
+          padding-left: 8px;
+        }
+        .adresse {
+          display: flex;
+          align-items: center;
+          color: $grey2;
+          font-size: 0.8rem;
+          margin-top: 20px;
+          //  margin-bottom: 20px;
+          i {
+            margin: 10px 5px;
+            font-size: 0.6rem;
+          }
+          p {
+            font-family: $font3;
+            letter-spacing: 2px;
+            margin-right: 10px;
+          }
+        }
+        button {
+          @include transform;
+          font-weight: 600;
+          letter-spacing: 2px;
+          border: none;
+          cursor: pointer;
+          margin-top: 20px;
+        }
+      }
+    }
+    .event2{
+      display: grid;
+      grid-template-columns: 30% 70%;
+      grid-area: c;
+      .event2-left{
+        background: url(../../../assets/img/event-02.jpg)center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .date-event {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: $grey1;
+          color: $white;
+          width: 80px;
+          height: 82px;
+          .number-date {
+            font-size: 1.9rem;
+          }
+          .month-date {
+            font-size: 1.2rem;
+            margin-top: -10px;
+          }
+        }
+        
+      }
+      .event2-right{
+        background-color: $white;
+        text-align: left;
+        padding: 20px;
+        h4 {
+          font-family: $font3;
+          font-size: 1.3rem;
+          font-weight: 500;
+          letter-spacing: 2px;
+          // margin-bottom: 20px;
+          padding-left: 8px;
+        }
+        .adresse {
+          display: flex;
+          align-items: center;
+          color: $grey2;
+          font-size: 0.8rem;
+          margin-top: 20px;
+          //  margin-bottom: 20px;
+          i {
+            margin: 10px 5px;
+            font-size: 0.6rem;
+          }
+          p {
+            font-family: $font3;
+            letter-spacing: 2px;
+            margin-right: 10px;
+          }
+        }
+        button {
+          @include transform;
+          font-weight: 600;
+          letter-spacing: 2px;
+          border: none;
+          cursor: pointer;
+          margin-top: 20px;
+        }
+      }
+    }
+    .event3{
+      background: url(../../../assets/img/event-03.jpg)center/cover;
+      grid-area: b;
+      padding: 20px;
+      .date-event{
+        background: $white;
+        display: flex;align-items: center;flex-direction: column;
+        .date{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: $grey1;
+          color: $white;
+          width: 80px;
+          height: 82px; margin-bottom: 20px;
+          .number-date {
+            font-size: 1.9rem;
+          }
+          .month-date {
+            font-size: 1.2rem;
+            margin-top: -10px;
+          }
+        }
+        h4 {
+          font-family: $font3;
+          font-size: 1.3rem;
+          font-weight: 500;
+          letter-spacing: 2px;
+          margin: 20px;
+        }
+       .adresse{
+        display: flex;
+        align-items: center;
+        color: $grey2;
+        font-size: 0.8rem;
+         margin-bottom: 20px;
+        i {
+          margin: 10px 5px;
+          font-size: 0.6rem;
+        }
+        p {
+          font-family: $font3;
+          letter-spacing: 2px;
+          margin-right: 10px;
+        }
+       }
+       button {
+        @include transform;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border: none;
+        cursor: pointer;
+        margin: 40px;
+      }
+      }
+    }
+  }
+}

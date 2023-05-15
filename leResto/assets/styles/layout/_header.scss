@@ -1,0 +1,112 @@
+header {
+  background: url(../../../assets/img/bg-slider-06.jpg) center/cover;
+  padding: 0 50px;
+
+  // BARRE DE NAVIGATION
+  nav {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    color: $white;
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    height: 12vh;
+  }
+  .nav-left span {
+    font-family: $font1;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $white;
+    cursor: pointer;
+  }
+
+  .nav-center {
+    width: 65%;
+    color: $white;
+    font-weight: 500;
+
+    ul {
+      @include transform;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      font-size: 0.6rem;
+      margin-right: 10px;
+    }
+    li {
+      margin-right: 10px;
+    }
+    li:hover{
+      cursor: pointer;
+      animation: nav1 1s linear;
+
+      @keyframes nav1 {
+       50%{
+        transform: scale(1.5);
+       }
+       100%{
+        transform: scale(1);
+       }
+        
+      }
+    }
+    
+  }
+
+  .nav-right {
+    width: 5%;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      font-size: 0.6rem;
+    }
+    i {
+      font-size: 0.6rem;
+      cursor: pointer;
+    }
+  }
+}
+// FIN DE BARRE DE NAVIGATION
+
+// DEBUT DU TITRE
+.title {
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title-container {
+    margin-bottom: 14rem;
+    h2 {
+      @include text;
+      font-size: 2.2rem;
+      margin-bottom: -18px;
+    }
+    h1 {
+      @include transform;
+      font-family: $font2;
+      font-weight: 600;
+      color: $white;
+      font-size: 2.4rem;
+      letter-spacing: 10px;
+      
+      // margin-bottom: 20px;
+    }
+
+    img {
+      width: 5%;
+      margin: 40px 0 20px;
+    }
+    p {
+      @include transform;
+      color: $white;
+      letter-spacing: 4px;
+      font-size: 0.7rem;
+    }
+  }
+}
