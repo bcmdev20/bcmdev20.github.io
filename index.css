@@ -27,7 +27,7 @@ li {
 }
 
 header {
-  background: url(../../img/bg-slider-06.jpg) center/cover;
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
   padding: 0 50px;
 }
 header nav {
