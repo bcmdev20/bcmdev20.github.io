@@ -1,49 +1,48 @@
 // DEBUT SECTION 1
 
-.section1{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background: $white;
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: $white;
 
-    .info-left{
-        border: 1px dashed $brown;
-        margin: 10px;
-        padding: 30px 15px;
+  .info-left {
+    border: 1px dashed $brown;
+    margin: 10px;
+    padding: 30px 15px;
 
-        h2{
-            font-family: $font1;
-            color: $brown;
-            margin-bottom: -10px;
-            font-weight: 500;
-        }
-        h3{
-            @include transform;
-            font-family: $font2;
-        }
-        .ustensible{
-            margin: 20px 0;
-        }
-        
-        .chef{
-            border-radius: 50%;
-            height: 70px;
-            margin: 26px 26px 20px;
-        }
-
-        h4{
-            font-family:$font2;
-            font-weight: 500;
-        }
-
-        h5 {
-            @include transform;
-            font-size: 0.7rem;
-            color: $grey2;
-        }
-        
+    h2 {
+      font-family: $font1;
+      color: $brown;
+      margin-bottom: -10px;
+      font-weight: 500;
+    }
+    h3 {
+      @include transform;
+      font-family: $font2;
+    }
+    .ustensible {
+      margin: 20px 0;
     }
 
-.info-right{
-    background: url(/assets/img/store-01.jpg) center/cover;
-}
+    .chef {
+      border-radius: 50%;
+      height: 70px;
+      margin: 26px 26px 20px;
+    }
+
+    h4 {
+      font-family: $font2;
+      font-weight: 500;
+    }
+
+    h5 {
+      @include transform;
+      font-size: 0.7rem;
+      color: $grey2;
+    }
+  }
+
+  .info-right {
+    background: url(./assets/img/store-01.jpg) center/cover;
+  }
 }
