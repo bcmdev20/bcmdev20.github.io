@@ -458,7 +458,7 @@ header .nav-right i {
   grid-area: c;
 }
 .section4 .event .event2 .event2-left {
-  background: url(../../../assets/img/event-02.jpg) center/cover;
+  background: url(/assets/img/event-02.jpg) center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -516,7 +516,7 @@ header .nav-right i {
   margin-top: 20px;
 }
 .section4 .event .event3 {
-  background: url(../../../assets/img/event-03.jpg) center/cover;
+  background: url(/assets/img/event-03.jpg) center/cover;
   grid-area: b;
   padding: 20px;
 }
@@ -670,7 +670,7 @@ footer .footer-container .footer-right {
 footer .footer-container .footer-right .mail-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 footer .footer-container .footer-right .mail-container h6 {
   text-transform: uppercase;
@@ -707,4 +707,4 @@ footer .footer-container .footer-right .sociaux-container ul i {
   font-size: 0.7rem;
   color: rgb(182, 182, 182);
   margin-left: 20px;
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

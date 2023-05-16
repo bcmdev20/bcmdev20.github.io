@@ -94,12 +94,12 @@
         }
       }
     }
-    .event2{
+    .event2 {
       display: grid;
       grid-template-columns: 30% 70%;
       grid-area: c;
-      .event2-left{
-        background: url(../../../assets/img/event-02.jpg)center/cover;
+      .event2-left {
+        background: url(/assets/img/event-02.jpg) center/cover;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -119,9 +119,8 @@
             margin-top: -10px;
           }
         }
-        
       }
-      .event2-right{
+      .event2-right {
         background-color: $white;
         text-align: left;
         padding: 20px;
@@ -160,21 +159,24 @@
         }
       }
     }
-    .event3{
-      background: url(../../../assets/img/event-03.jpg)center/cover;
+    .event3 {
+      background: url(/assets/img/event-03.jpg) center/cover;
       grid-area: b;
       padding: 20px;
-      .date-event{
+      .date-event {
         background: $white;
-        display: flex;align-items: center;flex-direction: column;
-        .date{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .date {
           display: flex;
           flex-direction: column;
           justify-content: center;
           background: $grey1;
           color: $white;
           width: 80px;
-          height: 82px; margin-bottom: 20px;
+          height: 82px;
+          margin-bottom: 20px;
           .number-date {
             font-size: 1.9rem;
           }
@@ -190,30 +192,30 @@
           letter-spacing: 2px;
           margin: 20px;
         }
-       .adresse{
-        display: flex;
-        align-items: center;
-        color: $grey2;
-        font-size: 0.8rem;
-         margin-bottom: 20px;
-        i {
-          margin: 10px 5px;
-          font-size: 0.6rem;
+        .adresse {
+          display: flex;
+          align-items: center;
+          color: $grey2;
+          font-size: 0.8rem;
+          margin-bottom: 20px;
+          i {
+            margin: 10px 5px;
+            font-size: 0.6rem;
+          }
+          p {
+            font-family: $font3;
+            letter-spacing: 2px;
+            margin-right: 10px;
+          }
         }
-        p {
-          font-family: $font3;
+        button {
+          @include transform;
+          font-weight: 600;
           letter-spacing: 2px;
-          margin-right: 10px;
+          border: none;
+          cursor: pointer;
+          margin: 40px;
         }
-       }
-       button {
-        @include transform;
-        font-weight: 600;
-        letter-spacing: 2px;
-        border: none;
-        cursor: pointer;
-        margin: 40px;
-      }
       }
     }
   }
