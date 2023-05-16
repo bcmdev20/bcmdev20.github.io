@@ -5,7 +5,7 @@ header {
   // BARRE DE NAVIGATION
   nav {
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
     color: $white;
     max-width: 100%;
@@ -38,21 +38,19 @@ header {
     li {
       margin-right: 10px;
     }
-    li:hover{
+    li:hover {
       cursor: pointer;
       animation: nav1 1s linear;
 
       @keyframes nav1 {
-       50%{
-        transform: scale(1.5);
-       }
-       100%{
-        transform: scale(1);
-       }
-        
+        50% {
+          transform: scale(1.5);
+        }
+        100% {
+          transform: scale(1);
+        }
       }
     }
-    
   }
 
   .nav-right {
@@ -94,7 +92,7 @@ header {
       color: $white;
       font-size: 2.4rem;
       letter-spacing: 10px;
-      
+
       // margin-bottom: 20px;
     }
 
