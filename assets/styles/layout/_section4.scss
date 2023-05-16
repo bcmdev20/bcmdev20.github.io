@@ -34,7 +34,7 @@
       grid-template-columns: 30% 70%;
       grid-area: a;
       .event1-left {
-        background: url(../../img/event-01.jpg) center/cover;
+        background: url(../../../assets/img/event-01.jpg) center/cover;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -99,7 +99,7 @@
       grid-template-columns: 30% 70%;
       grid-area: c;
       .event2-left {
-        background: url(../../img/event-02.jpg) center/cover;
+        background: url(../../../assets/img/event-02.jpg) center/cover;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -160,7 +160,7 @@
       }
     }
     .event3 {
-      background: url(../../img/event-03.jpg) center/cover;
+      background: url(../../../assets/img/event-03.jpg);
       grid-area: b;
       padding: 20px;
       .date-event {
