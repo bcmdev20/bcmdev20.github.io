@@ -639,7 +639,7 @@ header .nav-right i {
 
 footer {
   padding-top: 145px;
-  background: url(../../img/bg-footer.jpg) center/cover;
+  background: url(../../../assets/img/bg-footer.jpg) center/cover;
 }
 footer .footer-container {
   display: grid;
